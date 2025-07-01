@@ -1,0 +1,37 @@
+name: shop_eg_app
+description: A Flutter project scaffold for shop_eg_app with full screen flow and integrations.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_animate: ^4.0.0
+  supabase_flutter: ^1.0.0
+  firebase_core: ^2.0.0
+  firebase_messaging: ^14.0.0
+  aws_location: ^0.0.1
+  twilio_flutter: ^0.0.5
+  google_fonts: ^4.0.3
+  flutter_local_notifications: ^12.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
